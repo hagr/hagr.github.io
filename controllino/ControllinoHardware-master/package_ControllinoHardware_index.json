@@ -1,0 +1,46 @@
+{
+	"packages": [
+		{
+			"name": "Controllino HW",
+			"maintainer": "Controllino",
+			"websiteURL": "https://github.com/Controllino/ControllinoHardware",
+			"email": "info@controllino.cc",
+			"help": {
+				"online": "https://github.com/Controllino/ControllinoHardware/issues"
+			},
+			"platforms": [
+				{
+					"name": "Controllino Boards",
+					"architecture": "avr",
+					"version": "1.2.0",
+					"category": "Contributed",
+					"url": "http://controllino.cc/download/ControllinoHW.zip",
+					"archiveFileName": "ControllinoHW.zip",
+					"checksum": "SHA-256:0ca4811376820e2cfad4a6f840f9a05935efdbc7ed79d021c91b008c87cfd234",
+					"size": "216717",
+					"help": {
+						"online": "https://github.com/Controllino/ControllinoHardware/issues"
+					},
+					"boards": [
+						{ "name": "Controllino MINI" },
+						{ "name": "Controllino MAXI" },
+						{ "name": "Controllino MEGA" }
+					],
+					"toolsDependencies": [
+						{
+							"packager": "arduino",
+							"name": "avr-gcc",
+							"version": "4.8.1-arduino5"
+						},
+						{
+							"packager": "arduino",
+							"name": "avrdude",
+							"version": "6.0.1-arduino5"
+						}
+					]
+				}
+			],
+			"tools": []
+		}
+	]
+}
